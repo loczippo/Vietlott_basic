@@ -1,0 +1,70 @@
+html, body {
+    height:100%;
+}
+body {
+    height: 100%;
+    background-image: url(https://muavietlott.com//img/background/background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+
+}
+.card-header {
+    background-color: red;
+}
+.card-title {
+    /* text-align: center; */
+    color: white;
+}
+
+.login {
+    color: white;
+    text-decoration: none;
+}
+.login:hover {
+    color: white;
+}
+
+.number-circle {
+    font-size: 15px;
+    font-weight: 700;
+    color: red;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 28px;
+    font-family: Consolas;
+    overflow: hidden;
+}
+
+.btn-warning {
+    background-color: #fcc100;
+    border-color: #fcc100;
+}
+.w-100 {
+    width: 100%!important;
+}
+
+@media only screen and (min-width: 600px) {
+    .content{
+        position: absolute;
+        left: 32%;
+        top: 22%;
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content{
+        position: absolute;
+        left: 2%;
+        top: 12%;
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+}
+
